@@ -2,23 +2,23 @@
 using System.Collections;
 
 public class Door : MonoBehaviour {
-	public bool Open;
-	public GameObject Player;
-	public float Distance_To_Door;
+	public bool open;
+	public GameObject player;
+	public float distance_to_door;
 	// Use this for initialization
 	void Start () 
 	{
-		Player = GameObject.FindGameObjectWithTag("Player");
+		player = GameObject.FindGameObjectWithTag("Player");
 	}
 
 	// Update is called once per frame
 	void Update () 
 	{	
 		if(Input.GetKeyDown(KeyCode.E) & 
-		   Vector3.Distance(transform.position, player.transform.position)<Distance_To_Door)
+		   Vector3.Distance(transform.position, player.transform.position)<distance_to_door)
 		{
-			Open = !Open;
-			if(Open==true)
+			open = !open;
+			if(open==true)
 			{
 				transform.animation.Play("Open_Door");
 			}
