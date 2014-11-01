@@ -54,7 +54,7 @@
      <None Include="Assets\Creator_Wave\Scripts\Shaders\Wave Creator Mobile +.shader" />
      <None Include="Assets\Creator_Wave\Scripts\Shaders\Wave Creator Mobile.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Сергей/Documents/GitHub/Project-Amnesia/UnityProjAmnesia/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>D:/Project Amnesia/Project-Amnesia/UnityProjAmnesia/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

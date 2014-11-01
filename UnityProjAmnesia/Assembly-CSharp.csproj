@@ -49,9 +49,8 @@
      <Compile Include="Assets\Creator_Wave\Scripts\Other Scripts\Float.cs" />
      <Compile Include="Assets\Creator_Wave\Scripts\Other Scripts\SubmergedEffect.cs" />
      <Compile Include="Assets\Creator_Wave\Scripts\Other Scripts\WaveCreatorHelperFunctions.cs" />
-     <Compile Include="Assets\Door.cs" />
-     <Compile Include="Assets\Open.cs" />
      <Compile Include="Assets\PA_Characters\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\PA_Scripts\Door.cs" />
      <Compile Include="Assets\TEST_OBJECTS\MovementAnimsetProLite\Scripts\InputWalk.cs" />
      <None Include="Assets\PA_Skyboxes\_skybox info.txt" />
      <None Include="Assets\Creator_Wave\Scripts\Shaders\Wave Creator +.shader" />
